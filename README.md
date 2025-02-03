@@ -15,15 +15,18 @@ mem - r/w - jmp - alu - reg - in2 - mov_8bit_data
 ```
 git clone https://github.com/SHBBL/SHB-CPU.git
 cd SHB-CPU
+vim program.shb
+python Assembler.py -f program.shb -o out
 ```
 ## Usage:
 ``
-main.exe <rom game from /chip8_emulator/roms>
+Usage: 
+  Assembler.py [-h] -f -o Assembler.py: error: the following arguments are required: -f/--file, -o/--output
 ``
 
 ## Screenshots:
-![alt text](https://github.com/SHBBL/chip8_emulator/blob/main/blob/invaders.png)
-![alt text](https://github.com/SHBBL/chip8_emulator/blob/main/blob/invaders2.png)
+![alt text](https://github.com/SHBBL/SHB-CPU/blob/main/blob/8bit_cpu.png)
+![alt text](https://github.com/SHBBL/SHB-CPU/blob/main/blob/assembler.png)
 
 ## dependencies:
 * Logism
