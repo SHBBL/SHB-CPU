@@ -3,7 +3,7 @@
 ## ⚠️Doesn't support screen⚠️
 
 ## CPU:
-A simple custom CPU was designed using Logisim, featuring its own instruction set. To program it, a custom assembler was written in Python, translating assembly code into machine code for execution. This setup allows for experimenting with CPU design and low-level programming.
+A simple custom 8 bit CPU was designed using Logisim, featuring its own instruction set. To program it, a custom assembler was written in Python, translating assembly code into machine code for execution. This setup allows for experimenting with CPU design and low-level programming.
 
 ## Instruction Set:
  ```
